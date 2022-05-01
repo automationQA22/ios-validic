@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LoremSwiftum",
+        "repositoryURL": "https://github.com/lukaskubanek/LoremSwiftum",
+        "state": {
+          "branch": "master",
+          "revision": "8942e732e50458cde5dccf9996afa16f29372853",
+          "version": null
+        }
+      },
+      {
+        "package": "SimpleCheckbox",
+        "repositoryURL": "https://github.com/BeauNouvelle/SimpleCheckbox",
+        "state": {
+          "branch": null,
+          "revision": "96cf25c98bd8e595018df6a2466a9a1eb348fdb8",
+          "version": "2.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

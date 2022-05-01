@@ -1,0 +1,6 @@
+framework module Pods_Apollo360Tests {
+  umbrella header "Pods-Apollo360Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

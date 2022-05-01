@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390E300D92070C172D49F79F /* Pods_Apollo360Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A116F0056F546B320E957494 /* Pods_Apollo360Tests.framework */; };
+		8033B80A96E1B2D9F02BDCF9 /* Pods_Apollo360_Apollo360UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213B6DBFDFBA7B1ED5065A99 /* Pods_Apollo360_Apollo360UITests.framework */; };
+		8B7A2A012805494B009BDFE7 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A29FF2805494B009BDFE7 /* ListCell.swift */; };
+		8B7A2A022805494B009BDFE7 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A29FF2805494B009BDFE7 /* ListCell.swift */; };
+		8B7A2A032805494B009BDFE7 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A29FF2805494B009BDFE7 /* ListCell.swift */; };
+		8B7A2A042805494B009BDFE7 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B7A2A002805494B009BDFE7 /* ListCell.xib */; };
+		8B7A2A052805494B009BDFE7 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B7A2A002805494B009BDFE7 /* ListCell.xib */; };
+		8B7A2A062805494B009BDFE7 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B7A2A002805494B009BDFE7 /* ListCell.xib */; };
+		8BFFC71C28047CC60043E34A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC71B28047CC60043E34A /* AppDelegate.swift */; };
+		8BFFC71E28047CC60043E34A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC71D28047CC60043E34A /* SceneDelegate.swift */; };
+		8BFFC72328047CC60043E34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC72128047CC60043E34A /* Main.storyboard */; };
+		8BFFC72528047CC90043E34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC72428047CC90043E34A /* Assets.xcassets */; };
+		8BFFC72828047CC90043E34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC72628047CC90043E34A /* LaunchScreen.storyboard */; };
+		8BFFC73328047CC90043E34A /* Apollo360Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC73228047CC90043E34A /* Apollo360Tests.swift */; };
+		8BFFC73D28047CC90043E34A /* Apollo360UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC73C28047CC90043E34A /* Apollo360UITests.swift */; };
+		8BFFC73F28047CC90043E34A /* Apollo360UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC73E28047CC90043E34A /* Apollo360UITestsLaunchTests.swift */; };
+		8BFFC74D28047DDA0043E34A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC74B28047DDA0043E34A /* LoginController.swift */; };
+		8BFFC74E28047DDA0043E34A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC74B28047DDA0043E34A /* LoginController.swift */; };
+		8BFFC74F28047DDA0043E34A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC74B28047DDA0043E34A /* LoginController.swift */; };
+		8BFFC75028047DDA0043E34A /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC74C28047DDA0043E34A /* LoginController.xib */; };
+		8BFFC75128047DDA0043E34A /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC74C28047DDA0043E34A /* LoginController.xib */; };
+		8BFFC75228047DDA0043E34A /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC74C28047DDA0043E34A /* LoginController.xib */; };
+		8BFFC75528047E070043E34A /* InitialSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC75328047E070043E34A /* InitialSelectionController.swift */; };
+		8BFFC75628047E070043E34A /* InitialSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC75328047E070043E34A /* InitialSelectionController.swift */; };
+		8BFFC75728047E070043E34A /* InitialSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC75328047E070043E34A /* InitialSelectionController.swift */; };
+		8BFFC75828047E070043E34A /* InitialSelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC75428047E070043E34A /* InitialSelectionController.xib */; };
+		8BFFC75928047E070043E34A /* InitialSelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC75428047E070043E34A /* InitialSelectionController.xib */; };
+		8BFFC75A28047E070043E34A /* InitialSelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC75428047E070043E34A /* InitialSelectionController.xib */; };
+		8BFFC75C280482610043E34A /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC75B280482610043E34A /* SelectionButton.swift */; };
+		8BFFC75D280482610043E34A /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC75B280482610043E34A /* SelectionButton.swift */; };
+		8BFFC75E280482610043E34A /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC75B280482610043E34A /* SelectionButton.swift */; };
+		8BFFC76428048ADE0043E34A /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC76328048ADE0043E34A /* CustomField.swift */; };
+		8BFFC76528048ADE0043E34A /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC76328048ADE0043E34A /* CustomField.swift */; };
+		8BFFC76628048ADE0043E34A /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC76328048ADE0043E34A /* CustomField.swift */; };
+		8BFFC7692804BCDE0043E34A /* DevicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC7672804BCDE0043E34A /* DevicesController.swift */; };
+		8BFFC76A2804BCDE0043E34A /* DevicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC7672804BCDE0043E34A /* DevicesController.swift */; };
+		8BFFC76B2804BCDE0043E34A /* DevicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC7672804BCDE0043E34A /* DevicesController.swift */; };
+		8BFFC76C2804BCDE0043E34A /* DevicesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC7682804BCDE0043E34A /* DevicesController.xib */; };
+		8BFFC76D2804BCDE0043E34A /* DevicesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC7682804BCDE0043E34A /* DevicesController.xib */; };
+		8BFFC76E2804BCDE0043E34A /* DevicesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC7682804BCDE0043E34A /* DevicesController.xib */; };
+		8BFFC7712804BE650043E34A /* DevicesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC76F2804BE650043E34A /* DevicesCell.swift */; };
+		8BFFC7722804BE650043E34A /* DevicesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC76F2804BE650043E34A /* DevicesCell.swift */; };
+		8BFFC7732804BE650043E34A /* DevicesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC76F2804BE650043E34A /* DevicesCell.swift */; };
+		8BFFC7742804BE650043E34A /* DevicesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC7702804BE650043E34A /* DevicesCell.xib */; };
+		8BFFC7752804BE650043E34A /* DevicesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC7702804BE650043E34A /* DevicesCell.xib */; };
+		8BFFC7762804BE650043E34A /* DevicesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC7702804BE650043E34A /* DevicesCell.xib */; };
+		8BFFC7792804BFCE0043E34A /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFFC7782804BFCE0043E34A /* LoremSwiftum */; };
+		8BFFC77C2804C9050043E34A /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC77A2804C9050043E34A /* ListController.swift */; };
+		8BFFC77D2804C9050043E34A /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC77A2804C9050043E34A /* ListController.swift */; };
+		8BFFC77E2804C9050043E34A /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFC77A2804C9050043E34A /* ListController.swift */; };
+		8BFFC77F2804C9050043E34A /* ListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC77B2804C9050043E34A /* ListController.xib */; };
+		8BFFC7802804C9050043E34A /* ListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC77B2804C9050043E34A /* ListController.xib */; };
+		8BFFC7812804C9050043E34A /* ListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFC77B2804C9050043E34A /* ListController.xib */; };
+		8BFFC7842804D5420043E34A /* SimpleCheckbox in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFFC7832804D5420043E34A /* SimpleCheckbox */; };
+		9237602642964881AD926548 /* Pods_Apollo360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAACB3F737B14681C2AD6E36 /* Pods_Apollo360.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BFFC72F28047CC90043E34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFFC71028047CC60043E34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFFC71728047CC60043E34A;
+			remoteInfo = Apollo360;
+		};
+		8BFFC73928047CC90043E34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFFC71028047CC60043E34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFFC71728047CC60043E34A;
+			remoteInfo = Apollo360;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1021C3B9D8537CAE0EDD3642 /* Pods-Apollo360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo360.debug.xcconfig"; path = "Target Support Files/Pods-Apollo360/Pods-Apollo360.debug.xcconfig"; sourceTree = "<group>"; };
+		213B6DBFDFBA7B1ED5065A99 /* Pods_Apollo360_Apollo360UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apollo360_Apollo360UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EBA9E47FAEFCFCEB762339 /* Pods-Apollo360-Apollo360UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo360-Apollo360UITests.release.xcconfig"; path = "Target Support Files/Pods-Apollo360-Apollo360UITests/Pods-Apollo360-Apollo360UITests.release.xcconfig"; sourceTree = "<group>"; };
+		69C9D862F7DA90D63EF3AA86 /* Pods-Apollo360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo360.release.xcconfig"; path = "Target Support Files/Pods-Apollo360/Pods-Apollo360.release.xcconfig"; sourceTree = "<group>"; };
+		8A1E349CCFE087F057BDA0CA /* Pods-Apollo360Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo360Tests.release.xcconfig"; path = "Target Support Files/Pods-Apollo360Tests/Pods-Apollo360Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8B7A29FF2805494B009BDFE7 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		8B7A2A002805494B009BDFE7 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		8B7A2A0728054CB1009BDFE7 /* Apollo360-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apollo360-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B7A2A0828054CB1009BDFE7 /* Apollo360Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apollo360Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B7A2A0928054CB1009BDFE7 /* Apollo360UITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apollo360UITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8BFFC71828047CC60043E34A /* Apollo360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apollo360.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFFC71B28047CC60043E34A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BFFC71D28047CC60043E34A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BFFC72228047CC60043E34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BFFC72428047CC90043E34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BFFC72728047CC90043E34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BFFC72928047CC90043E34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFFC72E28047CC90043E34A /* Apollo360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apollo360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFFC73228047CC90043E34A /* Apollo360Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo360Tests.swift; sourceTree = "<group>"; };
+		8BFFC73828047CC90043E34A /* Apollo360UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apollo360UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFFC73C28047CC90043E34A /* Apollo360UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo360UITests.swift; sourceTree = "<group>"; };
+		8BFFC73E28047CC90043E34A /* Apollo360UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo360UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BFFC74B28047DDA0043E34A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8BFFC74C28047DDA0043E34A /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		8BFFC75328047E070043E34A /* InitialSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSelectionController.swift; sourceTree = "<group>"; };
+		8BFFC75428047E070043E34A /* InitialSelectionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialSelectionController.xib; sourceTree = "<group>"; };
+		8BFFC75B280482610043E34A /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
+		8BFFC76328048ADE0043E34A /* CustomField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
+		8BFFC7672804BCDE0043E34A /* DevicesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesController.swift; sourceTree = "<group>"; };
+		8BFFC7682804BCDE0043E34A /* DevicesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevicesController.xib; sourceTree = "<group>"; };
+		8BFFC76F2804BE650043E34A /* DevicesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesCell.swift; sourceTree = "<group>"; };
+		8BFFC7702804BE650043E34A /* DevicesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevicesCell.xib; sourceTree = "<group>"; };
+		8BFFC77A2804C9050043E34A /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		8BFFC77B2804C9050043E34A /* ListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListController.xib; sourceTree = "<group>"; };
+		A116F0056F546B320E957494 /* Pods_Apollo360Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apollo360Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43CD07A01283B8C6277A52E /* Pods-Apollo360Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo360Tests.debug.xcconfig"; path = "Target Support Files/Pods-Apollo360Tests/Pods-Apollo360Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAACB3F737B14681C2AD6E36 /* Pods_Apollo360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apollo360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18C5B3614526E982615E08F /* Pods-Apollo360-Apollo360UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo360-Apollo360UITests.debug.xcconfig"; path = "Target Support Files/Pods-Apollo360-Apollo360UITests/Pods-Apollo360-Apollo360UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BFFC71528047CC60043E34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFFC7792804BFCE0043E34A /* LoremSwiftum in Frameworks */,
+				8BFFC7842804D5420043E34A /* SimpleCheckbox in Frameworks */,
+				9237602642964881AD926548 /* Pods_Apollo360.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFFC72B28047CC90043E34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390E300D92070C172D49F79F /* Pods_Apollo360Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFFC73528047CC90043E34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8033B80A96E1B2D9F02BDCF9 /* Pods_Apollo360_Apollo360UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C84C65E9AE43BADF7EABCF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1021C3B9D8537CAE0EDD3642 /* Pods-Apollo360.debug.xcconfig */,
+				69C9D862F7DA90D63EF3AA86 /* Pods-Apollo360.release.xcconfig */,
+				F18C5B3614526E982615E08F /* Pods-Apollo360-Apollo360UITests.debug.xcconfig */,
+				49EBA9E47FAEFCFCEB762339 /* Pods-Apollo360-Apollo360UITests.release.xcconfig */,
+				B43CD07A01283B8C6277A52E /* Pods-Apollo360Tests.debug.xcconfig */,
+				8A1E349CCFE087F057BDA0CA /* Pods-Apollo360Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B7A29FC28054771009BDFE7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFC74B28047DDA0043E34A /* LoginController.swift */,
+				8BFFC74C28047DDA0043E34A /* LoginController.xib */,
+				8BFFC75328047E070043E34A /* InitialSelectionController.swift */,
+				8BFFC75428047E070043E34A /* InitialSelectionController.xib */,
+				8BFFC7672804BCDE0043E34A /* DevicesController.swift */,
+				8BFFC7682804BCDE0043E34A /* DevicesController.xib */,
+				8BFFC77A2804C9050043E34A /* ListController.swift */,
+				8BFFC77B2804C9050043E34A /* ListController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8B7A29FD28054791009BDFE7 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFC76F2804BE650043E34A /* DevicesCell.swift */,
+				8BFFC7702804BE650043E34A /* DevicesCell.xib */,
+				8B7A29FF2805494B009BDFE7 /* ListCell.swift */,
+				8B7A2A002805494B009BDFE7 /* ListCell.xib */,
+			);
+			path = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		8B7A29FE280547A2009BDFE7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFC76328048ADE0043E34A /* CustomField.swift */,
+				8BFFC75B280482610043E34A /* SelectionButton.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8BFFC70F28047CC60043E34A = {
+			isa = PBXGroup;
+			children = (
+				8BFFC71A28047CC60043E34A /* Apollo360 */,
+				8BFFC73128047CC90043E34A /* Apollo360Tests */,
+				8BFFC73B28047CC90043E34A /* Apollo360UITests */,
+				8BFFC71928047CC60043E34A /* Products */,
+				3C84C65E9AE43BADF7EABCF7 /* Pods */,
+				AEC7256C3B03B279D1A8ECD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFFC71928047CC60043E34A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFC71828047CC60043E34A /* Apollo360.app */,
+				8BFFC72E28047CC90043E34A /* Apollo360Tests.xctest */,
+				8BFFC73828047CC90043E34A /* Apollo360UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BFFC71A28047CC60043E34A /* Apollo360 */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFC71B28047CC60043E34A /* AppDelegate.swift */,
+				8BFFC71D28047CC60043E34A /* SceneDelegate.swift */,
+				8B7A29FE280547A2009BDFE7 /* Utility */,
+				8B7A29FD28054791009BDFE7 /* CustomTableViewCell */,
+				8B7A29FC28054771009BDFE7 /* ViewControllers */,
+				8BFFC72128047CC60043E34A /* Main.storyboard */,
+				8BFFC72428047CC90043E34A /* Assets.xcassets */,
+				8BFFC72628047CC90043E34A /* LaunchScreen.storyboard */,
+				8BFFC72928047CC90043E34A /* Info.plist */,
+				8B7A2A0728054CB1009BDFE7 /* Apollo360-Bridging-Header.h */,
+				8B7A2A0828054CB1009BDFE7 /* Apollo360Tests-Bridging-Header.h */,
+				8B7A2A0928054CB1009BDFE7 /* Apollo360UITests-Bridging-Header.h */,
+			);
+			path = Apollo360;
+			sourceTree = "<group>";
+		};
+		8BFFC73128047CC90043E34A /* Apollo360Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFC73228047CC90043E34A /* Apollo360Tests.swift */,
+			);
+			path = Apollo360Tests;
+			sourceTree = "<group>";
+		};
+		8BFFC73B28047CC90043E34A /* Apollo360UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFC73C28047CC90043E34A /* Apollo360UITests.swift */,
+				8BFFC73E28047CC90043E34A /* Apollo360UITestsLaunchTests.swift */,
+			);
+			path = Apollo360UITests;
+			sourceTree = "<group>";
+		};
+		AEC7256C3B03B279D1A8ECD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAACB3F737B14681C2AD6E36 /* Pods_Apollo360.framework */,
+				213B6DBFDFBA7B1ED5065A99 /* Pods_Apollo360_Apollo360UITests.framework */,
+				A116F0056F546B320E957494 /* Pods_Apollo360Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BFFC71728047CC60043E34A /* Apollo360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFFC74228047CC90043E34A /* Build configuration list for PBXNativeTarget "Apollo360" */;
+			buildPhases = (
+				26442D5BC9B22166AF94ECA1 /* [CP] Check Pods Manifest.lock */,
+				8BFFC71428047CC60043E34A /* Sources */,
+				8BFFC71528047CC60043E34A /* Frameworks */,
+				8BFFC71628047CC60043E34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apollo360;
+			packageProductDependencies = (
+				8BFFC7782804BFCE0043E34A /* LoremSwiftum */,
+				8BFFC7832804D5420043E34A /* SimpleCheckbox */,
+			);
+			productName = Apollo360;
+			productReference = 8BFFC71828047CC60043E34A /* Apollo360.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BFFC72D28047CC90043E34A /* Apollo360Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFFC74528047CC90043E34A /* Build configuration list for PBXNativeTarget "Apollo360Tests" */;
+			buildPhases = (
+				D459DCC74A31B76B8F4D19E8 /* [CP] Check Pods Manifest.lock */,
+				8BFFC72A28047CC90043E34A /* Sources */,
+				8BFFC72B28047CC90043E34A /* Frameworks */,
+				8BFFC72C28047CC90043E34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFFC73028047CC90043E34A /* PBXTargetDependency */,
+			);
+			name = Apollo360Tests;
+			productName = Apollo360Tests;
+			productReference = 8BFFC72E28047CC90043E34A /* Apollo360Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BFFC73728047CC90043E34A /* Apollo360UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFFC74828047CC90043E34A /* Build configuration list for PBXNativeTarget "Apollo360UITests" */;
+			buildPhases = (
+				D22A7981CC30F949F3D5E8E9 /* [CP] Check Pods Manifest.lock */,
+				8BFFC73428047CC90043E34A /* Sources */,
+				8BFFC73528047CC90043E34A /* Frameworks */,
+				8BFFC73628047CC90043E34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFFC73A28047CC90043E34A /* PBXTargetDependency */,
+			);
+			name = Apollo360UITests;
+			productName = Apollo360UITests;
+			productReference = 8BFFC73828047CC90043E34A /* Apollo360UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BFFC71028047CC60043E34A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8BFFC71728047CC60043E34A = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					8BFFC72D28047CC90043E34A = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+						TestTargetID = 8BFFC71728047CC60043E34A;
+					};
+					8BFFC73728047CC90043E34A = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+						TestTargetID = 8BFFC71728047CC60043E34A;
+					};
+				};
+			};
+			buildConfigurationList = 8BFFC71328047CC60043E34A /* Build configuration list for PBXProject "Apollo360" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BFFC70F28047CC60043E34A;
+			packageReferences = (
+				8BFFC7772804BFCE0043E34A /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+				8BFFC7822804D5420043E34A /* XCRemoteSwiftPackageReference "SimpleCheckbox" */,
+			);
+			productRefGroup = 8BFFC71928047CC60043E34A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BFFC71728047CC60043E34A /* Apollo360 */,
+				8BFFC72D28047CC90043E34A /* Apollo360Tests */,
+				8BFFC73728047CC90043E34A /* Apollo360UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BFFC71628047CC60043E34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFFC72828047CC90043E34A /* LaunchScreen.storyboard in Resources */,
+				8B7A2A042805494B009BDFE7 /* ListCell.xib in Resources */,
+				8BFFC7742804BE650043E34A /* DevicesCell.xib in Resources */,
+				8BFFC75028047DDA0043E34A /* LoginController.xib in Resources */,
+				8BFFC77F2804C9050043E34A /* ListController.xib in Resources */,
+				8BFFC75828047E070043E34A /* InitialSelectionController.xib in Resources */,
+				8BFFC76C2804BCDE0043E34A /* DevicesController.xib in Resources */,
+				8BFFC72528047CC90043E34A /* Assets.xcassets in Resources */,
+				8BFFC72328047CC60043E34A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFFC72C28047CC90043E34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFFC76D2804BCDE0043E34A /* DevicesController.xib in Resources */,
+				8B7A2A052805494B009BDFE7 /* ListCell.xib in Resources */,
+				8BFFC75128047DDA0043E34A /* LoginController.xib in Resources */,
+				8BFFC7802804C9050043E34A /* ListController.xib in Resources */,
+				8BFFC75928047E070043E34A /* InitialSelectionController.xib in Resources */,
+				8BFFC7752804BE650043E34A /* DevicesCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFFC73628047CC90043E34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFFC76E2804BCDE0043E34A /* DevicesController.xib in Resources */,
+				8B7A2A062805494B009BDFE7 /* ListCell.xib in Resources */,
+				8BFFC75228047DDA0043E34A /* LoginController.xib in Resources */,
+				8BFFC7812804C9050043E34A /* ListController.xib in Resources */,
+				8BFFC75A28047E070043E34A /* InitialSelectionController.xib in Resources */,
+				8BFFC7762804BE650043E34A /* DevicesCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26442D5BC9B22166AF94ECA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apollo360-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D22A7981CC30F949F3D5E8E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apollo360-Apollo360UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D459DCC74A31B76B8F4D19E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apollo360Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BFFC71428047CC60043E34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFFC77C2804C9050043E34A /* ListController.swift in Sources */,
+				8BFFC7692804BCDE0043E34A /* DevicesController.swift in Sources */,
+				8BFFC74D28047DDA0043E34A /* LoginController.swift in Sources */,
+				8B7A2A012805494B009BDFE7 /* ListCell.swift in Sources */,
+				8BFFC76428048ADE0043E34A /* CustomField.swift in Sources */,
+				8BFFC7712804BE650043E34A /* DevicesCell.swift in Sources */,
+				8BFFC75C280482610043E34A /* SelectionButton.swift in Sources */,
+				8BFFC75528047E070043E34A /* InitialSelectionController.swift in Sources */,
+				8BFFC71C28047CC60043E34A /* AppDelegate.swift in Sources */,
+				8BFFC71E28047CC60043E34A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFFC72A28047CC90043E34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFFC76528048ADE0043E34A /* CustomField.swift in Sources */,
+				8BFFC76A2804BCDE0043E34A /* DevicesController.swift in Sources */,
+				8BFFC75628047E070043E34A /* InitialSelectionController.swift in Sources */,
+				8BFFC73328047CC90043E34A /* Apollo360Tests.swift in Sources */,
+				8BFFC75D280482610043E34A /* SelectionButton.swift in Sources */,
+				8BFFC7722804BE650043E34A /* DevicesCell.swift in Sources */,
+				8B7A2A022805494B009BDFE7 /* ListCell.swift in Sources */,
+				8BFFC74E28047DDA0043E34A /* LoginController.swift in Sources */,
+				8BFFC77D2804C9050043E34A /* ListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFFC73428047CC90043E34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFFC73D28047CC90043E34A /* Apollo360UITests.swift in Sources */,
+				8BFFC75E280482610043E34A /* SelectionButton.swift in Sources */,
+				8BFFC77E2804C9050043E34A /* ListController.swift in Sources */,
+				8B7A2A032805494B009BDFE7 /* ListCell.swift in Sources */,
+				8BFFC74F28047DDA0043E34A /* LoginController.swift in Sources */,
+				8BFFC76628048ADE0043E34A /* CustomField.swift in Sources */,
+				8BFFC75728047E070043E34A /* InitialSelectionController.swift in Sources */,
+				8BFFC76B2804BCDE0043E34A /* DevicesController.swift in Sources */,
+				8BFFC73F28047CC90043E34A /* Apollo360UITestsLaunchTests.swift in Sources */,
+				8BFFC7732804BE650043E34A /* DevicesCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BFFC73028047CC90043E34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFFC71728047CC60043E34A /* Apollo360 */;
+			targetProxy = 8BFFC72F28047CC90043E34A /* PBXContainerItemProxy */;
+		};
+		8BFFC73A28047CC90043E34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFFC71728047CC60043E34A /* Apollo360 */;
+			targetProxy = 8BFFC73928047CC90043E34A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BFFC72128047CC60043E34A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFFC72228047CC60043E34A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BFFC72628047CC90043E34A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFFC72728047CC90043E34A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BFFC74028047CC90043E34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BFFC74128047CC90043E34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BFFC74328047CC90043E34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1021C3B9D8537CAE0EDD3642 /* Pods-Apollo360.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Apollo360/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = InitialSelectionController;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apollo360;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Apollo360/Apollo360-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BFFC74428047CC90043E34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C9D862F7DA90D63EF3AA86 /* Pods-Apollo360.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Apollo360/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = InitialSelectionController;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apollo360;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Apollo360/Apollo360-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BFFC74628047CC90043E34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43CD07A01283B8C6277A52E /* Pods-Apollo360Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apollo360Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Apollo360/Apollo360Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apollo360.app/Apollo360";
+			};
+			name = Debug;
+		};
+		8BFFC74728047CC90043E34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1E349CCFE087F057BDA0CA /* Pods-Apollo360Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apollo360Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Apollo360/Apollo360Tests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apollo360.app/Apollo360";
+			};
+			name = Release;
+		};
+		8BFFC74928047CC90043E34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18C5B3614526E982615E08F /* Pods-Apollo360-Apollo360UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apollo360UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Apollo360/Apollo360UITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Apollo360;
+			};
+			name = Debug;
+		};
+		8BFFC74A28047CC90043E34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49EBA9E47FAEFCFCEB762339 /* Pods-Apollo360-Apollo360UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Apollo360UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Apollo360/Apollo360UITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Apollo360;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BFFC71328047CC60043E34A /* Build configuration list for PBXProject "Apollo360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFFC74028047CC90043E34A /* Debug */,
+				8BFFC74128047CC90043E34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFFC74228047CC90043E34A /* Build configuration list for PBXNativeTarget "Apollo360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFFC74328047CC90043E34A /* Debug */,
+				8BFFC74428047CC90043E34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFFC74528047CC90043E34A /* Build configuration list for PBXNativeTarget "Apollo360Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFFC74628047CC90043E34A /* Debug */,
+				8BFFC74728047CC90043E34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFFC74828047CC90043E34A /* Build configuration list for PBXNativeTarget "Apollo360UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFFC74928047CC90043E34A /* Debug */,
+				8BFFC74A28047CC90043E34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BFFC7772804BFCE0043E34A /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8BFFC7822804D5420043E34A /* XCRemoteSwiftPackageReference "SimpleCheckbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BeauNouvelle/SimpleCheckbox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BFFC7782804BFCE0043E34A /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BFFC7772804BFCE0043E34A /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+		8BFFC7832804D5420043E34A /* SimpleCheckbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BFFC7822804D5420043E34A /* XCRemoteSwiftPackageReference "SimpleCheckbox" */;
+			productName = SimpleCheckbox;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8BFFC71028047CC60043E34A /* Project object */;
+}
